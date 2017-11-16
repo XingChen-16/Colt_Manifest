@@ -1,7 +1,7 @@
 ColtOS : Specialise Redmi 3
 =============================
 
-![ColtOS](https://github.com/XingChen-16/Colt_Manifest/blob/cos8.x/coltspray.gif)
+![ColtOS](https://github.com/XingChen-16/Colt_Manifest/blob/cos8.x/Profile.jpg)
 
 ColtOS Project
 ===============
