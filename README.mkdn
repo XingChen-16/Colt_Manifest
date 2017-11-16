@@ -6,20 +6,34 @@ ColtOS : Specialise Redmi 3(XingChen)
 
 Start:
 Install the build packages
+----------------
 
 ```bash
    sudo apt-get install bc bison build-essential curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev libesd0-dev liblz4-tool libncurses5-dev libsdl1.2-dev libssl-dev libwxgtk3.0-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev
 ```
 
-
-
-
-
-
-
-Initialize:
+Install Java Openjdk
+----------------
 
 ```bash
+  sudo apt-get install openjdk-8-jdk
+```
+
+Install the repo command:
+----------------
+```bash
+  mkdir -p ~/bin
+  curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+  chmod a+x ~/bin/repo
+  PATH="$HOME/bin:$PATH"
+```  
+
+Initialize:
+----------------
+
+```bash
+  mkdir Colt-O
+  cd Colt-O
   repo init -u git://github.com/XingChen-16/Colt_Manifest.git -b cos8.x
 ```
   
