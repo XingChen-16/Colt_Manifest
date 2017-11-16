@@ -28,13 +28,10 @@
 <project path="build/soong" name="XingChen-16/build_soong" groups="pdk,tradefed" remote="coltos" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-
- </project>
- 
-<!-- Redmi 3 -->  
 <project path="device/xiaomi/ido" name="XingChen-16/android_device_xiaomi_ido" remote="github" revision="lineage-15.0"/>
 <project path="kernel/xiaomi/msm8916" name="XingChen-16/android_kernel_xiaomi_msm8916" remote="github" revision="lineage-15.0"/>
 <project path="vendor/xiaomi" name="XingChen-16/proprietary_vendor_xiaomi" remote="github" revision="lineage-15.0"/>
 </project>
 
 </manifest>
+
