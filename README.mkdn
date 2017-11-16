@@ -1,4 +1,4 @@
-ColtOS : Let's Get Started :)
+ColtOS : Specialise Redmi 3
 =============================
 
 ![ColtOS](https://github.com/XingChen-16/Colt_Manifest/blob/cos8.x/coltspray.gif)
