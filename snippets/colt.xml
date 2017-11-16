@@ -3,9 +3,9 @@
 
 <!-- ColtOS Repos -->
 
-<project path="android" name="Colt-Oreo/Colt_Manifest" remote="coltos" />
+<project path="android" name="XingChen-16/Colt_Manifest" remote="coltos" />
 
-<project path="build/make" name="Colt-Oreo/android_build" remote="coltos" >
+<project path="build/make" name="XingChen-16/android_build" remote="coltos" >
  <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -16,16 +16,16 @@
 
 </project>
 
-<project path="device/colt/sepolicy" name="Colt-Oreo/device_colt_sepolicy" remote="coltos" />
-<project path="frameworks/base" name="Colt-Oreo/android_frameworks_base" remote="coltos" />
-<project path="packages/apps/Settings" name="Colt-Oreo/android_packages_apps_Settings" remote="coltos" />
-<project path="packages/apps/ColtCenter" name="Colt-Oreo/android_packages_apps_ColtCenter" remote="coltos" />
-<project path="packages/services/Telephony" name="Colt-Oreo/android_packages_services_Telephony" remote="coltos" />
-<project path="packages/services/OmniJaws" name="Colt-Oreo/android_packages_services_OmniJaws" remote="coltos" />
-<project path="hardware/cyanogen" name="Colt-Oreo/android_hardware_colt" remote="coltos" />
-<project path="vendor/colt" name="Colt-Oreo/android_vendor_colt" remote="coltos" />
-<project path="bionic" name="Colt-Oreo/android_bionic" remote="coltos" />
-<project path="build/soong" name="Colt-Oreo/build_soong" groups="pdk,tradefed" remote="coltos" >
+<project path="device/colt/sepolicy" name="XingChen-16/device_colt_sepolicy" remote="coltos" />
+<project path="frameworks/base" name="XingChen-16/android_frameworks_base" remote="coltos" />
+<project path="packages/apps/Settings" name="XingChen-16/android_packages_apps_Settings" remote="coltos" />
+<project path="packages/apps/ColtCenter" name="XingChen-16/android_packages_apps_ColtCenter" remote="coltos" />
+<project path="packages/services/Telephony" name="XingChen-16/android_packages_services_Telephony" remote="coltos" />
+<project path="packages/services/OmniJaws" name="XingChen-16/android_packages_services_OmniJaws" remote="coltos" />
+<project path="hardware/cyanogen" name="XingChen-16/android_hardware_colt" remote="coltos" />
+<project path="vendor/colt" name="XingChen-16/android_vendor_colt" remote="coltos" />
+<project path="bionic" name="XingChen-16/android_bionic" remote="coltos" />
+<project path="build/soong" name="XingChen-16/build_soong" groups="pdk,tradefed" remote="coltos" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
 </project>
