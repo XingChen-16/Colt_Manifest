@@ -1,7 +1,7 @@
 ColtOS : Let's Get Started :)
 =============================
 
-![ColtOS](https://github.com/Colt-Oreo/Colt_Manifest/blob/cos8.x/coltspray.gif)
+![ColtOS](https://github.com/XingChen-16/Colt_Manifest/blob/cos8.x/coltspray.gif)
 
 ColtOS Project
 ===============
@@ -29,7 +29,7 @@ To initialize your local repository using the ColtOS trees, use a
 command like this:
 
 ```bash
-  repo init -u git://github.com/Colt-Oreo/Colt_Manifest.git -b cos8.x
+  repo init -u git://github.com/XingChen-16/Colt_Manifest.git -b cos8.x
 ```
   
 Then to sync up:
@@ -43,5 +43,5 @@ Finally to build:
 
 ```bash
   . build/envsetup.sh
-  brunch <device_name>
+  brunch colt_ido-userdebug
 ```
