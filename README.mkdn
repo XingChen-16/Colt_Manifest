@@ -1,4 +1,4 @@
-ColtOS : Specialise Redmi 3(XingChen)
+ColtOS : Specially Redmi 3(XingChen)
 =============================
 
 ![ColtOS](https://github.com/XingChen-16/Colt_Manifest/blob/cos8.x/Profile.jpg)
